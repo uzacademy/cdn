@@ -1,0 +1,52 @@
+{
+  "data":[
+    {
+      "image_path":"./assets/img/1-team.jpg",
+      "name":"Zoirov Ozod Abduvohid o'g'li",
+      "type":"Matematika",
+      "content":"\"Matematika\" fanidan bronza medali sovrindori."
+    },
+    {
+      "image_path":"./assets/img/2-team.jpg",
+      "name":"Qo'chqorov Jasur",
+      "type":"Matematika",
+      "content":"Respublika Olimpiadasida 1-o'rin, Xalqaro olimpiada kumush medali sovrindori."
+    },
+    {
+      "image_path":"./assets/img/3-team.jpg",
+      "name":"G'afforov Sardor",
+      "type":"Matematika",
+      "content":"Respublika olimpiadasi 1-o'rin, 2013 yil oliy matematikadan Respublika Olimpiadasi 1-o'rin sovrindori."
+    },
+    {
+      "image_path":"./assets/img/medal.png",
+      "name":"Jumaev Sherzod",
+      "type":"Matematika",
+      "content":"Respublika olimpiadasi 1-o'rin."
+    },
+    {
+      "image_path":"./assets/img/medal.png",
+      "name":"Safoev Sherzod",
+      "type":"Matematika",
+      "content":"Ispaniyadagi jahon olimpiadasida bronza medali. Oliy matematikadan Respublika olimpiadasida 2-o'rin."
+    },
+    {
+      "image_path":"./assets/img/3-team.jpg",
+      "name":"Max",
+      "type":"Matematika",
+      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+      "image_path":"./assets/img/1-team.jpg",
+      "name":"Max",
+      "type":"Matematika",
+      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    {
+      "image_path":"./assets/img/2-team.jpg",
+      "name":"Max",
+      "type":"Matematika",
+      "content":"Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    }
+  ]
+}
