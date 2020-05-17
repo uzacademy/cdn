@@ -1,0 +1,36 @@
+{
+  "data":{
+      "video_content":{
+         "heading":"Saytdan foydalanish tartibi",
+         "short_content":"",
+         "content":[
+            "Ro'yxatdan o'ting",
+            "Oylik to'lov tizimi orqali to'lani amalga oshiring",
+            "Diagnostik test orqali kamchiliklaringizni aniqlang",
+            "Aniqlangan kamchiliklarni video dars ko'rib yoki test ishlab bartaraf eting",
+            "Istalgan mavzu bo'yicha qiyinligi har xil bo'lgan testlarni yeching va yechimlarini o'rganing"
+         ],
+         "video_link": "https://www.youtube.com/watch?v=hw2smSOJIv4"
+      },
+      "mobile_featured":[
+         {
+            "icon_path":"ion-ios-crop-outline",
+            "icon_class":"text-info",
+            "title":"Fully Responsive Design",
+            "content":"Fully responsive design on all browsers and mobiles devices without hiding any element."
+         },
+         {
+            "icon_path":"ion-ios-color-wand-outline",
+            "icon_class":"text-success",
+            "title":"30+ Page Templates",
+            "content":"30+ Beautifully designed page templates for your blog, portfolio, gallery and any other type of content."
+         },
+         {
+            "icon_path":"ion-ios-albums-outline",
+            "icon_class":"text-warning",
+            "title":"500+ UI elements",
+            "content":"Lots of UI elements and components gives you the power to build fully functional apps."
+         }
+      ]
+  }
+}

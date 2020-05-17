@@ -1,0 +1,152 @@
+/*========== Pricing css ==========*/
+.pricing-section-1 {
+    .card {
+        transition: all 0.5s ease 0s;
+    }
+
+    .card.active,
+    .card:hover {
+        background-color: $blue;
+        color           : $white;
+        @extend .shadow-md;
+        transition: all 0.5s ease 0s;
+
+        h2 {
+            color: $white;
+        }
+
+        .btn {
+            background  : $yellow;
+            color       : $black;
+            border-color: $yellow;
+        }
+    }
+}
+
+.pricing-section-3 {
+    //   background: url("../../assets/img/testimonial.jpg");
+    background-color     : slategrey;
+    background-position  : center center;
+    background-attachment: fixed;
+
+    .black-tp-layer {
+        padding: 7rem 0;
+    }
+}
+
+.pricing-card .badge-overlay {
+    position: absolute;
+    left    : 0%;
+    top     : 0px;
+    width   : 100%;
+    height  : 100%;
+    overflow: hidden;
+}
+
+/* ================== Badge CSS ========================*/
+.pricing-card .badge {
+    margin        : 0;
+    padding       : 0;
+    color         : white;
+    padding       : 10px 10px;
+    font-size     : 1.2em;
+    font-family   : Arial, Helvetica, sans-serif;
+    text-align    : center;
+    line-height   : normal;
+    text-transform: uppercase;
+    background    : limegreen;
+    border-radius : 0;
+}
+
+.pricing-card .badge::before,
+.pricing-card .badge::after {
+    content   : '';
+    position  : absolute;
+    top       : 0;
+    margin    : 0 -1px;
+    width     : 100%;
+    height    : 100%;
+    background: inherit;
+    min-width : 55px
+}
+
+.pricing-card .badge::before {
+    right: 100%
+}
+
+.pricing-card .badge::after {
+    left: 100%
+}
+
+/* ================== Badge Position CSS ========================*/
+.pricing-card .top-left {
+    position                : absolute;
+    top                     : 0;
+    left                    : 0;
+    -ms-transform           : translateX(-30%) translateY(0%) rotate(-45deg);
+    -webkit-transform       : translateX(-30%) translateY(0%) rotate(-45deg);
+    transform               : translateX(-30%) translateY(0%) rotate(-45deg);
+    -ms-transform-origin    : top right;
+    -webkit-transform-origin: top right;
+    transform-origin        : top right;
+}
+
+.pricing-card .top-right {
+    position                : absolute;
+    top                     : 0;
+    right                   : 0;
+    -ms-transform           : translateX(30%) translateY(0%) rotate(45deg);
+    -webkit-transform       : translateX(30%) translateY(0%) rotate(45deg);
+    transform               : translateX(30%) translateY(0%) rotate(45deg);
+    -ms-transform-origin    : top left;
+    -webkit-transform-origin: top left;
+    transform-origin        : top left;
+}
+
+.pricing-card del {
+    color: red;
+}
+
+.days-remain {
+    float            : right;
+    color            : green;
+    animation        : highlightGreen 2s;
+    -moz-animation   : highlightGreen 2s infinite;
+    /* Firefox */
+    -webkit-animation: highlightGreen 2s infinite;
+    /* Safari and Chrome */
+}
+
+@-moz-keyframes highlightGreen
+
+/* Firefox */
+    {
+    0% {
+        color: green;
+    }
+
+    60% {
+        color: lime;
+    }
+
+    100% {
+        color: green;
+    }
+}
+
+@-webkit-keyframes highlightGreen
+
+/* Safari and Chrome */
+    {
+    0% {
+        color: green;
+    }
+
+    60% {
+        color: lime;
+    }
+
+    100% {
+        color: green;
+    }
+}

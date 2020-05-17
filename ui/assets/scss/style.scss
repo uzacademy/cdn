@@ -1,0 +1,17 @@
+@import "bootstrap";
+/*==== Core Mixins ====*/
+@import "mixins";
+/*==== Core Styles =====*/
+@import "core";
+@import "elements";
+@import "utilities/utilities";
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
